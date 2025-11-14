@@ -1,2 +1,3 @@
 # DeltaU_Data
-This repository includes files in support of ML integrated FE modelling of structural walls
+This repository includes files in support of ML-integrated FE modelling of structural walls
+**File No. 1**: An Excel spreadsheet that includes the database used for training and validating the Simple Weighted Ensemble machine learning algorithm for predicting the modified peak strain of concrete. The spreadsheet consists of four sheets: (1) The references for the assembled data (bibliography); (2) The specimen features and outputs for the 140-unit category of experimental specimens; (3) The specimen features and outputs for the 110-unit category of experimental specimens, which are walls with boundary elements; (4) The optimum values of hyperparameters used for training the single machine learning models.
