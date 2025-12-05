@@ -1,5 +1,5 @@
 # DeltaU_Data
-This repository includes codes and files in support of ML-integrated FE modelling of structural walls:
+This repository contains codes and files in support of ML-integrated FE modelling of structural walls:
 
 Yaghoubi, S. T., Deger, Z. T., & Wallace, J. W. (in press). Machine learning-integrated nonlinear modeling of ductile RC shear walls. Journal of Building Engineering. https://doi.org/10.1016/j.jobe.2025.114820
 
