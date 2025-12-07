@@ -107,8 +107,8 @@ set fy1 576.0e6 ;  # Yield stress of phi 12 bars (Pascals)
 set fy2 583.7e6 ;  # Yield stress of phi 8 bars (Pascals)
 set E1  203.5e9 ;  # Young's modulus of phi 12 bars (Pascals); derived from (Dazio et al., 1999, sec. 2.5.4)
 set E2  201.35e9 ;  # Young's modulus of phi 8 bars (Pascals); derived from (Dazio et al., 1999, sec. 2.5.4)
-set eRup1 0.075 ; # Strain corresponding to tensile strength of phi 12 bars (mm/mm); derived from (Dazio et al., 1999, sec. 2.5.4) 
-set eRup2 0.080 ; # Strain corresponding to tensile strength of phi 8 bars (mm/mm); derived from (Dazio et al., 1999, sec. 2.5.4) 
+set eRup1 0.0729 ; # Strain corresponding to tensile strength of phi 12 bars (mm/mm); derived from (Dazio et al., 2009) 
+set eRup2 0.0785 ; # Strain corresponding to tensile strength of phi 8 bars (mm/mm); derived from (Dazio et al., 2009) 
 set fu1 674.9e6 ;  # Tensile strength of phi 12 bars (Pascals)  
 set fu2 714.4e6 ;  # Tensile strength of phi 8 bars (Pascals) 
 set Esh1 5763.4033e6 ; # Tangent at initial strain hardening of phi 12 bars, estimated following the method by (Yun & Gardner, 2017)
@@ -560,4 +560,5 @@ for {set ii 0} {$ii < $targetDispNo} {incr ii} {
 # Tripathi, M., Dhakal, R. P., Dashti, F., & Massone, L. M. (2018). Low-cycle fatigue behaviour of reinforcing bars including the effect of inelastic buckling. Construction and Building Materials, 190, 1226–1235.
 # Wong and Vecchio, VecTor2 and FormWorks Users Manual. University of Toronto, 2006
 # Yassin, M. H. M. (1994). Nonlinear analysis of prestressed concrete structures under monotonic and cyclic loads. University of California, Berkeley.
+
 # Yun, X., & Gardner, L. (2017). Stress-strain curves for hot-rolled steels. Journal of Constructional Steel Research, 133, 36-46
