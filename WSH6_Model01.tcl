@@ -82,11 +82,11 @@ set bLength3 [expr 50.0e-3] ; # Buckling length (m) of edge phi 8 bars as per th
 set Cf1 0.25658 ; # Fatigue ductility coefficient (edge phi 12 bars)
 set alpha1 0.51509 ; # Fatigue ductility exponent (edge phi 12 bars)
 set Cd1 [expr 1.25*$Cf1] ; # Cyclic strength reduction constant approximated as 1.25*fatigue ductility coefficient (edge phi 12 bars) 
-set Cf2 0.16982 ; # Fatigue ductility coefficient (web phi 8 bars)
-set alpha2 0.59501 ; # Fatigue ductility exponent (web phi 8 bars)
+set Cf2 0.18554 ; # Fatigue ductility coefficient (web phi 8 bars)
+set alpha2 0.57206 ; # Fatigue ductility exponent (web phi 8 bars)
 set Cd2 [expr 1.25*$Cf2]; # Cyclic strength reduction constant approximated as 1.25*fatigue ductility coefficient (web phi 8 bars)
-set Cf3 0.27143 ; # Fatigue ductility coefficient (edge phi 8 bars)
-set alpha3 0.50734 ; # Fatigue ductility exponent (edge phi 8 bars)
+set Cf3 0.27869 ; # Fatigue ductility coefficient (edge phi 8 bars)
+set alpha3 0.50382 ; # Fatigue ductility exponent (edge phi 8 bars)
 set Cd3 [expr 1.25*$Cf3]; # Cyclic strength reduction constant approximated as 1.25*fatigue ductility coefficient (edge phi 8 bars)
 
 # Recommended values are used for the following parameters based on (https://opensees.berkeley.edu/wiki/index.php/Reinforcing_Steel_Material): 		
@@ -122,7 +122,7 @@ set fcc 54.2369e6 ; # Confined concrete compressive strength in Pascals per (Yas
 set ep0TH -0.002 ; # Theoretical peak strain of plain concrete per (Yassin, 1994)
 set epc0TH -0.0023788 ; # Theoretical peak strain of confined concrete per (Yassin, 1994)
 set epuTH -0.0034255 ; #  Theoretical ultimate strain of plain concrete per (Yassin, 1994)
-set epcuTH -0.032935 ; # Theoretical ultimate strain of confined concrete per (Yassin, 1994)
+set epcuTH -0.03215 ; # Theoretical ultimate strain of confined concrete per (Yassin, 1994)
 set ft 2.2429e6 ; # Concrete tensile strength in Pascals per (Wong & Vecchio, 2006)
 set Ec 31960.7358e6 ; # Initial Young's modulus of concrete in Pascals per (ACI 318-19)
 
